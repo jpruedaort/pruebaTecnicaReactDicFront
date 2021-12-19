@@ -1,0 +1,66 @@
+.mainMain {
+  height: 90vh;
+}
+
+.mainBody {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  height: 20rem;
+  width: 17rem;
+  background-color: rgb(185, 227, 198);
+  color: rgb(35, 57, 91);
+  display: flex;
+  padding: 0.5rem;
+  flex-direction: column;
+  margin: 1rem 1rem 1rem 1rem;
+  box-shadow: 1px 5px 10px 6px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 5px 10px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 5px 10px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card h4 {
+  font-size: 0.8rem;
+}
+
+.cardDeck {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 2rem 1rem 4rem 1rem;
+}
+
+.btnLine {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1rem;
+}
+
+.aBtn {
+  width: 45%;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+#like {
+  background-color: rgb(77, 77, 253);
+}
+
+#dislike {
+  background-color: rgb(255, 106, 106);
+}
