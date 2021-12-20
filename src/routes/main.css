@@ -64,3 +64,10 @@
 #dislike {
   background-color: rgb(255, 106, 106);
 }
+
+#newPosts {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="navDiv" id="itemPart">
         <ul>
           <Link to="/">
-            <li>Main</li>
+            <li>Posts</li>
           </Link>
           <Link to="/grupos">
             <li>Grupos</li>
