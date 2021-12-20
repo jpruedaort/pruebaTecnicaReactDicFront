@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import { useSelector, useDispatch } from "react-redux";
+import { fecthAllData } from "../actions";
 
 export default function Card(props) {
+  const dispatch = useDispatch();
   return (
     <div className="card" id="postCard">
       <div className="dateLine">
@@ -16,7 +19,11 @@ export default function Card(props) {
         andan todos
       </h4>
       <div className="btnLine">
-        <button className="aBtn" id="like">
+        <button
+          onClick={() => dispatch(fecthAllData())}
+          className="aBtn"
+          id="like"
+        >
           Like (1)
         </button>
         <button className="aBtn" id="dislike">
